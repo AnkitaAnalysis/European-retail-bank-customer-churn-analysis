@@ -20,10 +20,11 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 ---
 
 ##  Dataset
-- **Source:** Maven Analytics – Bank Customer Churn dataset  
-- **Records:** 10,000 customers (France, Germany, Spain)  
+- **Source:** Maven Analytics – Bank Customer Churn dataset    
 - **Key Fields:** CustomerID, Geography, Age, CreditScore, Balance, NumOfProducts, Tenure, IsActiveMember, ChurnFlag, EstimatedSalary  
+- **Records:** 10,000 customers (France, Germany, Spain)
 
+- 
 ![data](Preview-dataset.png)
 
 ---
@@ -79,6 +80,7 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 3. **Customer Profile Drill‑Down Dashboard:**  
    - Avg tenure, balance, and product count segmented by Geo, Age, Credit Score, and Product Count.  
 
+
 ![Overview](dashboard-overview.png)
 
 
@@ -93,7 +95,7 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 
 ---
 
-##  Results & Conclusion
+##  Results & Final Recommendations
 - **Germany** is the critical churn hotspot; targeted retention programs needed.  
 - **Single‑product customers** are most vulnerable — cross‑selling can reduce churn.  
 - **Mid‑age (30–50)** customers show both high churn and high engagement — retention incentives should focus here.  
@@ -103,9 +105,9 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 ---
 
 ##  Future Work
-- Extend analysis with SQL portfolio project (CRM/Sales pipeline simulation).  
+- Extend analysis with SQL.  
 - Build Power BI / Tableau interactive dashboards.  
-- Apply predictive modeling (AI/ML fundamentals) for churn prediction.  
+- Apply predictive ML modeling for churn prediction.  
 
 ---
 
@@ -114,4 +116,4 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
  - Aspiring Business Analyst
 - Email: ankita.analysis@outlook.com
 - [LinkedIn](http://www.linkedin.com/in/ankitaa-s)
-- [GitHub]()
+- [GitHub](https://github.com/AnkitaAnalysis)

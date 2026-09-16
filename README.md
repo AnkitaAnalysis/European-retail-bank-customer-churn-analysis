@@ -8,7 +8,7 @@ Data analysis project on customer churn for a fictional European retail bank usi
 This project analyzes **customer churn behavior** across different segments (geography, age, credit score, product engagement etc.) for generating actionable insights to improve retention.
  
 It includes **3 dashboards** designed for deeper & detailed insights:
-1. **Overview Dashboard** –   
+1. **Overview Dashboard** –  Overall churn & retention pattern analysis 
 2. **Trends Dashboard** – Retention %, Active Members %, High‑Value Churn %  
 3. **Customer Profile Drill‑Down Dashboard** – Average values segmented by dimensions (Geo, Age, Credit Score, Products)
 
@@ -20,8 +20,11 @@ The bank has noticed **rising customer churn rates** and wants to understand the
 ---
 
 ##  Dataset
-- **Source:** Maven Analytics – Bank Customer Churn dataset    
-- **Key Fields:** CustomerID, Geography, Age, CreditScore, Balance, NumOfProducts, Tenure, IsActiveMember, ChurnFlag, EstimatedSalary  
+- **Source:** Maven Analytics – Bank Customer Churn dataset
+-    
+- **Key Fields:** CustomerID, Surname, Geography, Gender, Age, CreditScore, Balance, NumOfProducts, Tenure, IsActiveMember, HasCrCard, EstimatedSalary, Exited
+- **Created Fields:** IsActiveStatus,	Retention Flag,	High Value Flag,	AgeGroup,	BalanceRange,	and CreditScoreBand	(using excel formulas)
+- 
 - **Records:** 10,000 customers (France, Germany, Spain)
 
 - 
@@ -40,8 +43,8 @@ The bank has noticed **rising customer churn rates** and wants to understand the
 
 ##  Methods
 - Data cleaning and preparation in Excel  
-- KPI calculation using Pivot Tables
 - Pivot Tables for summarization
+- KPI calculations 
 - Segmentation by Geography, Age, Credit Score, Product Count etc. 
 - Comparative analysis of churn vs. retention metrics  
 - Dashboard design & storytelling for stakeholder review    
@@ -85,23 +88,30 @@ The bank has noticed **rising customer churn rates** and wants to understand the
 ![Overview](2_images/dashboard-overview.png)
 
 
+**Note:** Dashboard contains multiple pages (Overview, Trends, Customer-details), all screenshots available in `2_images` folder.
+
+[View All Dashboard Pages Here](2_images)
+
+
 ---
 
 ##  How to Use This Project
-1. Download the repository  
-2. Open `European-bank-churn-analysis.xlsx` in Excel.
+1. Download the repository.  
+2. Open `1_dashboard/European-bank-churn-analysis.xlsx` in Excel.
 3. Go to the Dashboard Worksheet. 
-4. Explore KPI cards and slicers for interactive filtering  
-5. Review KPI cards, charts & insights summarized in this README  
+4. Use slicers for interactive filtering. 
+5. Explore KPI cards, charts & insights summarized in this README.  
 
 ---
 
-##  Results & Final Recommendations
+##  Final Recommendations
+
 - **Germany** is the critical churn hotspot; targeted retention programs needed.  
 - **Single‑product customers** are most vulnerable — cross‑selling can reduce churn.  
 - **Mid‑age (30–50)** customers show both high churn and high engagement — retention incentives should focus here.  
 - **Credit score 600–700** segment requires credit‑risk review and personalized offers.  
 - **High‑value customers** need proactive relationship management to prevent revenue loss.
+
 
 ---
 

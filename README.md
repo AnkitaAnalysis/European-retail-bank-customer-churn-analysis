@@ -25,7 +25,7 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 - **Records:** 10,000 customers (France, Germany, Spain)
 
 - 
-![data](Preview-dataset.png)
+![data](0_data/Preview-dataset.png)
 
 ---
 
@@ -81,7 +81,7 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
    - Avg tenure, balance, and product count segmented by Geo, Age, Credit Score, and Product Count.  
 
 
-![Overview](dashboard-overview.png)
+![Overview](2_images/dashboard-overview.png)
 
 
 ---

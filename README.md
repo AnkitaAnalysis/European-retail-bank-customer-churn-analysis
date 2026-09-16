@@ -1,21 +1,21 @@
 # European Retail Bank Customer Churn Analysis
 
-Data analysis project on customer churn for a European retail bank using Excel dashboards to uncover retention patterns, churn drivers, and customer profile insights.
+Data analysis project on customer churn for a fictional European retail bank using Excel dashboards to uncover churn drivers, retention patterns, and customer profile insights.
 
 ---
 
 ## Project Overview
-This project analyzes **customer churn behavior** across geography, age, credit score, and product engagement using the **Maven Analytics Bank Customer Churn dataset**.  
-It includes **3 dashboards** designed for different stakeholder perspectives:
-1. **Overview Dashboard** – Customer Success / Retention Team view  
+This project analyzes **customer churn behavior** across different segments (geography, age, credit score, product engagement etc.) for generating actionable insights to improve retention.
+ 
+It includes **3 dashboards** designed for deeper & detailed insights:
+1. **Overview Dashboard** –   
 2. **Trends Dashboard** – Retention %, Active Members %, High‑Value Churn %  
 3. **Customer Profile Drill‑Down Dashboard** – Average values segmented by dimensions (Geo, Age, Credit Score, Products)
 
 ---
 
 ##  Problem Statement
-The bank faces a **20% churn rate**, with significant loss among high‑value customers.  
-Objective: Identify **who churns, why they churn**, and **which segments need retention focus**.
+The bank has noticed **rising customer churn rates** and wants to understand the drivers behind customer attrition. Leadership is concerned about losing high-value customers and wants actionable insights to improve retention.
 
 ---
 
@@ -30,20 +30,21 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 ---
 
 ##  Tools & Skills
-- **Microsoft Excel** (Pivot Tables, Charts, KPI Cards)  
-- **Visualization & Storytelling**
-- **Dashboard Design**  
-- **KPI Identification & Dimensions Mapping**  
-- **Analytical Skills:** Churn %, Retention %, Active Member %, High‑Value Churn %, Product Engagement  
+- Microsoft Excel (Pivot Tables, Charts, KPI Cards, Slicers)  
+- Dashboard Design & Visualization
+- KPI Identification & Dimensions Mapping  
+- Data Storytelling
 
+  
 ---
 
 ##  Methods
 - Data cleaning and preparation in Excel  
-- KPI calculation using Pivot Tables  
-- Segmentation by Geography, Age, Credit Score, Product Count  
+- KPI calculation using Pivot Tables
+- Pivot Tables for summarization
+- Segmentation by Geography, Age, Credit Score, Product Count etc. 
 - Comparative analysis of churn vs. retention metrics  
-- Dashboard design for multi‑stakeholder storytelling  
+- Dashboard design & storytelling for stakeholder review    
 
 ---
 
@@ -72,9 +73,9 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 
 ---
 
-##  Dashboards 
+##  Dashboards Features
 1. **Overview Dashboard:**  
-   - Total churn, churn rate %, retention %, high‑value churn %, regional and age splits.  
+   - Total churn, churn rate %, retention %, high‑value churn %, regional & age splits and overall        pattern analysis.  
 2. **Trends Dashboard:**  
    - Retention %, Active Member %, High‑Value Churn %, product‑wise and region‑wise retention.  
 3. **Customer Profile Drill‑Down Dashboard:**  
@@ -91,7 +92,7 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 2. Open `European-bank-churn-analysis.xlsx` in Excel.
 3. Go to the Dashboard Worksheet. 
 4. Explore KPI cards and slicers for interactive filtering  
-5. Review insights summarized in this README  
+5. Review KPI cards, charts & insights summarized in this README  
 
 ---
 
@@ -105,6 +106,7 @@ Objective: Identify **who churns, why they churn**, and **which segments need re
 ---
 
 ##  Future Work
+- Refinement in design and storytelling.
 - Extend analysis with SQL.  
 - Build Power BI / Tableau interactive dashboards.  
 - Apply predictive ML modeling for churn prediction.  

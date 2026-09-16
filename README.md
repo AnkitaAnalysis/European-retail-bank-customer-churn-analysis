@@ -20,15 +20,15 @@ The bank has noticed **rising customer churn rates** and wants to understand the
 ---
 
 ##  Dataset
-- **Source:** Maven Analytics – Bank Customer Churn dataset
--    
+- **Source:** Maven Analytics – Bank Customer Churn dataset   
 - **Key Fields:** CustomerID, Surname, Geography, Gender, Age, CreditScore, Balance, NumOfProducts, Tenure, IsActiveMember, HasCrCard, EstimatedSalary, Exited
-- **Created Fields:** IsActiveStatus,	Retention Flag,	High Value Flag,	AgeGroup,	BalanceRange,	and CreditScoreBand	(using excel formulas)
-- 
+- **Created Fields:** IsActiveStatus,	Retention Flag,	High Value Flag,	AgeGroup,	BalanceRange,	and CreditScoreBand	(using excel formulas) 
 - **Records:** 10,000 customers (France, Germany, Spain)
 
-- 
+  ### Preview
+  
 ![data](0_data/Preview-dataset.png)
+
 
 ---
 
